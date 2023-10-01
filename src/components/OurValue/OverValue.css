@@ -1,0 +1,47 @@
+.ov-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+}
+.ov-right{
+    width: 25vw;
+}
+.ov-right p{
+    color: rgb(245, 160, 32);
+    font-weight: 600;
+    font-size: 2rem;
+}
+.ov-right h1{
+    color: rgb(7, 7, 139);
+    font-weight: 600;
+    font-size: 2.3rem;
+}
+.ov-left{
+    overflow: hidden;
+    border: 8px solid rgb(10, 10, 205);
+    border-radius: 15rem 15rem 1rem 1rem;
+    width: 27vw;
+    height: 70vh;
+}
+#accordionFlushExample{
+   
+    margin-top: 1rem;
+}
+.accordion-button{
+    
+    font-weight: 600;
+    color:  rgb(7, 7, 139);
+    font-size: 1rem;
+}
+.accordion-header{
+    background-color: rgb(209, 212, 212);
+    border-radius:1rem 1rem 0 0 ;
+    box-shadow: 1px 0px 9px rgb(86, 84, 84);
+}
+.accordion-body{
+    
+    background-color: rgb(250, 255, 255);
+    border-radius: 0 0 1rem 1rem;
+    box-shadow: 1px 0px 9px rgb(73, 71, 71);
+}
