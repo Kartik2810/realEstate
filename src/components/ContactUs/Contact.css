@@ -1,0 +1,60 @@
+.cont-container{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top:6rem
+}
+.left-side{
+    width: 25vw;
+}
+.left-side p{
+    color: rgb(245, 160, 32);
+    font-weight: 600;
+    font-size: 2rem;
+}
+.left-side h1{
+    color: rgb(7, 7, 139);
+    font-weight: 600;
+    font-size: 2.3rem;
+}
+.main-card{
+    display:flex;
+    justify-content:space-evenly;
+}
+.mini-card{
+    margin-right:2rem;
+    margin-top:4rem;
+    width:12vw;
+    height:17vh;
+    border:0.5rem;
+    background-color:rgb(255, 254, 254);
+    border-radius:1rem;
+    box-shadow: 0px 0px 10px rgb(98, 95, 95);
+    padding:0.4rem;
+}
+#call{
+    margin-left:0.7rem;
+    color:rgb(223, 141, 18);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.icon{
+    border-radius:0.4rem;
+    padding:0.5rem;
+    color:rgb(19, 19, 179);
+    background-color:rgb(213, 212, 212);
+}
+.btn{
+
+  margin-top:1.2rem;
+  background-color:blue;
+  color:white;
+  width:10vw;
+  border-radius:1.3rem
+}
+.btn:hover{
+    background-color:rgb(255, 156, 7);
+}
+.c-btn{
+    text-align:center;
+}
