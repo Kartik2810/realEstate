@@ -4,24 +4,56 @@
 }
 .r-title{ 
     color: rgb(245, 160, 32);
-    font-weight: 600;
+    font-weight: 700;
 }
 .r-title2{
     color: rgb(5, 5, 141);
-    font-weight: 600;
+    font-weight: 500;
 }
 .card{
     border: none;
-    width:80%;
+    width:80%; 
 }
 .all-card{
     gap:0.6rem;
 }
 .swiper{
-    margin-left: 30px !important;
+    margin-left: 3vw !important;
 }
 .price{
     font-weight: bold;
     
     color:  rgb(245, 160, 32);
+}
+.swaiper-wrapper{
+  flex-wrap: wrap;
+}
+.r-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* 8888888888888888888888 */
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    margin: 2rem;
+    padding: 0.5rem;
+    width: 270px;
+}
+#project{
+    margin:1.5rem ;
+    text-align: center;
+}
+.card-4{
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 270px;
+    z-index: -1;
+    opacity: 0.5;
 }

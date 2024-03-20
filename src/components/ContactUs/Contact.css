@@ -1,60 +1,85 @@
-.cont-container{
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
-    margin-top:6rem
+.cont-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
 }
-.left-side{
-    width: 25vw;
+.left-side {
+  width: 600px;
 }
-.left-side p{
-    color: rgb(245, 160, 32);
-    font-weight: 600;
-    font-size: 2rem;
+.left-side p {
+  color: rgb(245, 160, 32);
+  font-weight: 600;
+  font-size: 2rem;
 }
-.left-side h1{
-    color: rgb(7, 7, 139);
-    font-weight: 600;
-    font-size: 2.3rem;
+.left-side h1 {
+  color: rgb(7, 7, 139);
+  font-weight: 600;
+  font-size: 2.3rem;
 }
-.main-card{
-    display:flex;
-    justify-content:space-evenly;
+.main-card {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  
 }
-.mini-card{
-    margin-right:2rem;
-    margin-top:4rem;
-    width:12vw;
-    height:17vh;
-    border:0.5rem;
-    background-color:rgb(255, 254, 254);
-    border-radius:1rem;
-    box-shadow: 0px 0px 10px rgb(98, 95, 95);
-    padding:0.4rem;
+.mini-card {
+  margin-right: 2rem;
+  margin-top: 4rem;
+  width: 70%;
+  height: 19%;
+  border: 0.5rem;
+  background-color: rgb(255, 254, 254);
+  border-radius: 1rem;
+  box-shadow: 0px 0px 10px rgb(98, 95, 95);
+  padding: 0.4rem;
 }
-#call{
-    margin-left:0.7rem;
-    color:rgb(223, 141, 18);
-    font-weight: 700;
-    font-size: 1.2rem;
-}
-.icon{
-    border-radius:0.4rem;
-    padding:0.5rem;
-    color:rgb(19, 19, 179);
-    background-color:rgb(213, 212, 212);
-}
-.btn{
 
-  margin-top:1.2rem;
-  background-color:blue;
-  color:white;
-  width:10vw;
-  border-radius:1.3rem
+#call {
+  margin-left: 0.7rem;
+  color: rgb(223, 141, 18);
+  font-weight: 700;
+  font-size: 1.2rem;
 }
-.btn:hover{
-    background-color:rgb(255, 156, 7);
+.icon {
+  border-radius: 0.4rem;
+  padding: 0.5rem;
+  color: rgb(19, 19, 179);
+  background-color: rgb(213, 212, 212);
 }
-.c-btn{
-    text-align:center;
+.btn {
+  margin-top: 1.2rem;
+  background-color: blue;
+  color: white;
+  font-size: 1vw;
+  border-radius: 1.3rem;
+}
+.btn:hover {
+  background-color: rgb(255, 156, 7);
+}
+.c-btn {
+  text-align: center;
+}
+.c-right {
+  overflow: hidden;
+  border: 0.5em solid rgb(10, 10, 205);
+  border-radius: 15rem 15rem 1rem 1rem;
+  background-size: cover;
+}
+.c-img {
+  width: 350px;
+}
+@media(max-width:615px){
+    .cont-container{
+        margin-top: 10rem;
+    }
+    .main-card {
+        flex-wrap: wrap;
+        margin-bottom: 3rem;
+    }
+    .btn{
+      width: 100px;
+      font-size: 14px;
+    }
 }
